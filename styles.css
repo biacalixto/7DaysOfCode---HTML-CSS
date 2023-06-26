@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+#logo {
+    width: 27px;
+    height: 26.991px;
+    flex-shrink: 0;
+}
+#logo-name {
+    color: #3a404e;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+}
+.logo {
+    display: flex;
+width: 148px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+}
+header {
+    display: flex;
+    width: 1440px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 1280px;
+    padding: 0px 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-buttons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+#nav-content {
+    color: var(--gray-500, #667085);
+
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+}
+.button1 {
+    display: flex;
+padding: 10px 18px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border-color: white;
+
+}
+#login {
+color: #667085;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+}
+.button2 {
+    display: flex;
+padding: 10px 18px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid #8E2424;
+background: #8E2424;
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+#sign-up {
+
+color: white;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+}
+.buttons {
+    display: flex;
+align-items: center;
+gap: 12px;
+}
